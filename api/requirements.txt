@@ -1,10 +1,9 @@
 fastapi
 uvicorn[standard]
-kubernetes
 sqlalchemy
 pymysql
 passlib[bcrypt]
 python-jose
 cryptography
 python-multipart
-openpyxl
+apscheduler

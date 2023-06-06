@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 SQLALCHEMY_DATABASE_URL = (
-    "mysql+pymysql://k8s:123456@localhost:33306/k8sdeploytool?charset=utf8mb4"
+    "mysql+pymysql://demo:demopass@localhost:33306/demo?charset=utf8mb4"
 )
 
 engine = create_engine(
